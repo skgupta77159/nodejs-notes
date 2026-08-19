@@ -1,6 +1,26 @@
 # Node.js Security Best Practices — Complete Interview TL;DR
 
 ### 1. Rate Limiting
+### 2. Password Encryption
+### 3. JWT Blacklisting / better Refresh token
+### 4. JSON Schema validaton
+### 5. Escaping HTML & CSS
+### 6. ORM/ODM against Injections
+### 7. Security Linter
+
+### 8. Running Nodejs as a non-root user
+### 9. Module loading with a variable
+### 10. Limiting the payload size
+### 11. Authentication limits
+### 12. HTTP response headers & helmet
+### 13. Vulnerability inspections
+
+### 14. Security hardening with OWASP Application security verification standard 4.0
+### 15. Leaking server information
+### 16. .npmignore
+### 17. Child processes
+
+### 1. Rate Limiting
 
 > Limit requests per IP/user/API key within a time window to prevent brute-force attacks, API abuse, and resource exhaustion.
 
